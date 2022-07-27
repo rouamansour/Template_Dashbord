@@ -96,9 +96,9 @@ export default function DashboardSidebar({ isOpenSidebar, onCloseSidebar }) {
             <Typography gutterBottom variant="h6">
               Get more?
             </Typography>
-            <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+            {/* <Typography variant="body2" sx={{ color: 'text.secondary' }}>
               From only $69
-            </Typography>
+            </Typography> */}
           </Box>
 
           <Button href="https://material-ui.com/store/items/minimal-dashboard/" target="_blank" variant="contained">
