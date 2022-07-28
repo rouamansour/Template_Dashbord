@@ -30,8 +30,8 @@ export default class Request extends Component {
         const { demds } = this.state;
 
         return (
-             <div className="mt-4" striped bordered hover size="sm">
-                <table>
+             <div className="mt-4" >
+                <table border="2">
                     <thead>
                     <tr>
                         <th>Number</th>
@@ -54,7 +54,10 @@ export default class Request extends Component {
                             </tr>)}
                     </tbody>
                 </table>
+               
+                <button>New Request</button>
              </div>
+             
         )
     }
 }
